@@ -9,18 +9,18 @@
 2. F1 - select interpreter - 방금 만든 가상환경 선택
 3. (env)가 앞에 잘 붙어있으면 성공
 4. 권한이 없어서 에러가 뜨고 안된다면
-  검색 - powershell 관리자 권한으로 실행
-  Set-ExecutionPolicy RemoteSigned
+- 검색 - powershell 관리자 권한으로 실행
+- Set-ExecutionPolicy RemoteSigned
 5. pip install opencv-python 으로 opencv 선택
 6. python -m pip install --upgrade pip
 7. 코드를 실행해서 잘 나오는지 확인
 8. pip install mediapipe
 9. visual studio 커뮤니티 무료 버전을 다운 받고, desktop에서 C++ 체크 해준 뒤 설치.
 10. dlib 및 face_recognition 설치 순서 - 헤매지 말고 이대로!
-   pip install cmake
-   pip install wheel
-   pip install dlib
-   pip install face_recognition
+- pip install cmake
+- pip install wheel
+- pip install dlib
+- pip install face_recognition
 11. 나머지 라이브러리 설치.
-   pip install just-playback
-   pip install pycaw
+- pip install just-playback
+- pip install pycaw
